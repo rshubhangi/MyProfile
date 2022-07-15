@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+
+    <link rel="icon" type="imag/x-icon" href="shubh.jpg">
+</head>
+
+<body>
+    <!-- <h3>Student Registraion Form</h3> -->
+    <form>
+        <fieldset>
+            <legend><h3>Student Registraion Form</h3></legend>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td><input type="text" placeholder="only first name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="LastName"></label>Last Name</label></td>
+                        <td><input type="text" id="LastName" placeholder="without space"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Mobilenumber">Mobile Number</label></td>
+                        <td><input type="number" id="Mobilenumber" required autofocus
+                                placeholder="Please enter with Country Code"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Country</label></td>
+                        <td><input type="text" value="Inida" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label>Bank Account</label></td>
+                        <td><input type="text" value="Yes" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable>Date of Birth</lable>
+                        </td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>Availbale in Week</lable>
+                        </td>
+                        <td><input type="week"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>Prefered Time</lable>
+                        </td>
+                        <td><input type="time"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>Select profile photo</lable>
+                        </td>
+                        <td><input type="file"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>Select Certificatin</lable>
+                        </td>
+                        <td>
+
+                            <input type="file" multiple>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>Select Graduation</lable>
+                        </td>
+                        <td>
+                            <select>
+                                <option>BE</option>
+                                <option>MCA</option>
+                                <option>MBA</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>Select Degree </lable>
+                        </td>
+                        <td>
+                            <select>
+                                <optgroup label="Bachlor of Engineering">
+                                    <option>Computer Sceince</option>
+                                    <option>Information technology</option>
+                                    <option>Mechanical</option>
+                                    <option>Civil Engineering/option>
+                                </optgroup>
+                                <optgroup label="Mster of computer application">
+                                    <option>MCA-1</option>
+                                    <OPTION>Mca-2</OPTION>
+                                </optgroup>
+                                <optgroup label="MBA">
+                                    <option>Finance</option>
+                                    <option>Material Seince</option>
+                                    <option>HR</option>
+                                    <option>business</option>
+                                </optgroup>
+
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Select Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender">
+                            <lable> Male</lable>
+
+                            <input type="radio" name="gender">
+                            <label> Female</label>
+
+                            <input type="radio" name="gender">
+                            <label>Others</label>
+                        </td>
+                    </tr>
+                    <td><label>Select Traning</label></td>
+                    <td>
+                        <input type="checkbox" name="Traning">
+                        <label>anguler</label>
+
+                        <input type="checkbox" name="JAVA">
+                        <label>JAVA</label>
+
+                        <input type="checkbox" name=".NET">
+                        <label>.NET</label>
+
+                        <input type="checkbox" name="DevOPs">
+                        <lable>checkbox</lable>
+                    </td>
+
+                    <tr>
+                        <td> <label>Address</label></td>
+                        <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit"></td>
+                        <td><input type="reset"></td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+    <!-- <div>
+        <label>First Name</label>
+        <input type="text" placeholder="only first name">
+    </div>
+    <br>
+    <div>
+    <label>Last Name</label>
+    <input type="text"placeholder="without space pls">
+</div>
+<br>
+<label>Mobile Number with country code</label>
+<input type="number"> -->
+</body>
+
+</html>
